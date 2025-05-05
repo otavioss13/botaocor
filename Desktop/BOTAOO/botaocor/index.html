@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternado o parágrafo, teste</title>
+    
+    <script>
+        
+        function alterarConteudo() {
+            
+            var novoConteudo = prompt("Digite um novo paragrafo: ");
+
+            
+            if (novoConteudo  == novoConteudo) {
+                document.getElementById("paragrafo1").innerText = novoConteudo;
+            }
+        }
+    </script>
+</head>
+<body>
+    
+    <h1>TESTANDO O JAVA!</h1> 
+    <h2>TESTE</h2> 
+    
+    <p id="paragrafo1">Este é um parágrafo inicial.</p> 
+    <div>Este é um <strong>div</strong> de exemplo.</div> 
+    
+    <button onclick="alterarConteudo()">Alterar conteúdo do parágrafo</button>
+    
+    <link rel="stylesheet" href="index.css">
+
+</body>
+</html>
